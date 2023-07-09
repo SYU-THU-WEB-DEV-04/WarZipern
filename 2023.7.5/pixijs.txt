@@ -1,0 +1,4573 @@
+import * as PIXI from 'pixi.js';
+import '@pixi/graphics-extras';
+
+const app = new PIXI.Application({ antialias: true, resizeTo: window });
+
+document.body.appendChild(app.view);
+
+const graphics = new PIXI.Graphics();
+
+
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(2.04,
+                1.325,
+                0.1,
+                2.0);
+graphics.endFill();
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(2.38,
+                1.325,
+                0.1,
+                2.0);
+graphics.endFill();
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(2.005,
+                1.325,
+                0.51,
+                2.0);
+graphics.endFill();
+
+
+// 255 99 0 
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(2.04,
+                1.325,
+                0.1,
+                2.0);
+graphics.endFill();
+// 30，0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.045,
+                1.44,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.045,
+                1.68,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.045,
+                1.92,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.045,
+                2.16,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.045,
+                2.4,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.045,
+                2.64,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.045,
+                2.88,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.045,
+                3.12,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.385,
+                1.44,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.385,
+                1.68,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.385,
+                1.92,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.385,
+                2.16,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.385,
+                2.4,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.385,
+                2.64,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.385,
+                2.88,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.385,
+                3.12,
+                0.09,
+                0.09);
+graphics.endFill();
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(2.72,
+                1.325,
+                0.1,
+                2.0);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(2.345,
+                1.325,
+                0.51,
+                2.0);
+graphics.endFill();
+// 255 99 0
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(2.345,
+                1.155,
+                0.51,
+                2.34);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.725,
+                1.44,
+                0.09,
+                0.09);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.725,
+                1.68,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.725,
+                1.92,
+                0.09,
+                0.09);
+graphics.endFill();
+// -----------------------------------------------------------------------
+
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.725,
+                2.16,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.725,
+                2.4,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.725,
+                2.64,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.725,
+                2.88,
+                0.09,
+                0.09);
+graphics.endFill();
+// 30，0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.725,
+                3.12,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1F0000, 1);
+// 31 0 0
+graphics.beginFill(0x1F0000);
+graphics.drawRect(2.04,
+                1.325,
+                0.1,
+                2.0);
+graphics.endFill();
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(2.72,
+                1.325,
+                0.1,
+                2.0);
+graphics.endFill();
+graphics.lineStyle(2, 0x110000, 1);
+// 17 0 0
+graphics.beginFill(0x110000);
+graphics.drawRect(2.23,
+                1.155,
+                0.06,
+                2.34);
+graphics.endFill();
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(2.57,
+                1.155,
+                0.06,
+                2.34);
+graphics.endFill();
+graphics.lineStyle(2, 0x1F0000, 1);
+// 3100
+graphics.beginFill(0x1F0000);
+graphics.drawRect(2.38,
+                1.325,
+                0.1,
+                2.0);
+graphics.endFill();
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(1.24,
+                1.325,
+                0.1,
+                2.0);
+graphics.endFill();
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(1.64,
+                1.325,
+                0.1,
+                2.0);
+graphics.endFill();
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(1.205,
+                1.325,
+                0.57,
+                2.0);
+graphics.endFill();
+// 255 99 0
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(1.205,
+                1.155,
+                0.57,
+                2.34);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.245,
+                1.44,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.245,
+                1.68,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.245,
+                1.92,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.245,
+                2.16,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.245,
+                2.4,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.245,
+                2.64,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.245,
+                2.88,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.245,
+                3.12,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.645,
+                1.44,
+                0.09,
+                0.09);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.645,
+                1.68,
+                0.09,
+                0.09);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.645,
+                1.92,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.645,
+                2.16,
+                0.09,
+                0.09);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.645,
+                2.4,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.645,
+                2.64,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.645,
+                2.88,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.645,
+                3.12,
+                0.09,
+                0.09);
+graphics.endFill();
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(1.605,
+                1.325,
+                0.57,
+                2.0);
+graphics.endFill();
+// 255 99 0
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(1.605,
+                1.155,
+                0.57,
+                2.34);
+graphics.endFill();
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(1.24,
+                1.325,
+                0.1,
+                2.0);
+graphics.endFill();
+// 17 0 0
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(1.43,
+                1.155,
+                0.12,
+                2.34);
+graphics.endFill();
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(1.83,
+                1.155,
+                0.12,
+                2.34);
+graphics.endFill();
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(1.64,
+                1.325,
+                0.1,
+                2.0);
+graphics.endFill();
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(5.56,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(6.02,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(5.525,
+                1.295,
+                0.63,
+                2.0);
+graphics.endFill();
+// 255 99 0
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(5.525,
+                1.125,
+                0.63,
+                2.34);
+graphics.endFill();
+// 30 00
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.565,
+                1.41,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.565,
+                1.65,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.565,
+                1.89,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.565,
+                2.13,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.565,
+                2.37,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.565,
+                2.61,
+                0.09,
+                0.09);
+graphics.endFill();
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(5.565,
+                2.85,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(5.565,
+                3.09,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(6.025,
+                1.41,
+                0.09,
+                0.09);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.025,
+                1.65,
+                0.09,
+                0.09);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.025,
+                1.89,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.025,
+                2.13,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.025,
+                2.37,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.025,
+                2.61,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.025,
+                2.85,
+                0.09,
+                0.09);
+graphics.endFill();
+
+
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.025,
+                3.09,
+                0.09,
+                0.09);
+graphics.endFill();
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(6.48,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(5.985,
+                1.295,
+                0.63,
+                2.0);
+graphics.endFill();
+// 255 99 0
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(5.985,
+                1.125,
+                0.63,
+                2.34);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.485,
+                1.41,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.485,
+                1.65,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.485,
+                1.89,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.485,
+                2.13,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.485,
+                2.37,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.485,
+                2.61,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.485,
+                2.85,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.485,
+                3.09,
+                0.09,
+                0.09);
+graphics.endFill();
+// 31 0 0 
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(5.56,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(6.48,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+// 17 0 0 
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(5.75,
+                1.125,
+                0.18,
+                2.34);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(6.21,
+                1.125,
+                0.18,
+                2.34);
+graphics.endFill();
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(6.02,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(7.16,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(7.68,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(7.125,
+                1.295,
+                0.69,
+                2.0);
+graphics.endFill();
+// 255 99 0
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(7.125,
+                1.125,
+                0.69,
+                2.34);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.165,
+                1.41,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.165,
+                1.65,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.165,
+                1.89,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.165,
+                2.13,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.165,
+                2.37,
+                0.09,
+                0.09);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.165,
+                2.61,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.165,
+                2.85,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.165,
+                3.09,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect( 7.685,
+                1.41,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.685,
+                1.65,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.685,
+                1.89,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.685,
+                2.13,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.685,
+                2.37,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.685,
+                2.61,
+                0.09,
+                0.09);
+graphics.endFill();
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.685,
+                2.85,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.685,
+                3.09,
+                0.09,
+                0.09);
+graphics.endFill();
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(8.2,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(7.645,
+                1.295,
+                0.69,
+                2.0);
+graphics.endFill();
+// 255 99 0
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(7.645,
+                1.125,
+                0.69,
+                2.34);
+graphics.endFill();
+// 30 0 0 
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.205,
+                1.41,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.205,
+                1.65,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.205,
+                1.89,
+                0.09,
+                0.09);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.205,
+                2.13,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.205,
+                2.37,
+                0.09,
+                0.09);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.205,
+                2.61,
+                0.09,
+                0.09);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.205,
+                2.85,
+                0.09,
+                0.09);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.205,
+                3.09,
+                0.09,
+                0.09);
+graphics.endFill();
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(7.16,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+
+// ---------------------------------2023.7.5 18:23 ---------------------------------
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(8.2,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+// 17 00
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(7.35,
+                1.125,
+                0.24,
+                2.34);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(7.87,
+                1.125,
+                0.24,
+                2.34);
+graphics.endFill();
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(7.68,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(8.88,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(9.46,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(8.845,
+                1.295,
+                0.75,
+                2.0);
+graphics.endFill();
+// 255 99 0
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(8.845,
+                1.125,
+                0.75,
+                2.34);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.885,
+                1.41,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.885,
+                1.65,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.885,
+                1.89,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.885,
+                2.13,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.885,
+                2.37,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.885,
+                2.61,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.885,
+                2.85,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.885,
+                3.09,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.465,
+                1.41,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.465,
+                1.65,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.465,
+                1.89,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.465,
+                2.13,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.465,
+                2.37,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.465,
+                2.61,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.465,
+                2.85,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.465,
+                3.09,
+                0.09,
+                0.09);
+graphics.endFill();
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(10.04,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(9.425,
+                1.295,
+                0.75,
+                2.0);
+graphics.endFill();
+// 255 99 0
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(9.425,
+                1.125,
+                0.75,
+                2.34);
+graphics.endFill();
+
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(10.045,
+                1.41,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(10.045,
+                1.65,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(10.045,
+                1.89,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(10.045,
+                2.13,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(10.045,
+                2.37,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(10.045,
+                2.61,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(10.045,
+                2.85,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(10.045,
+                3.09,
+                0.09,
+                0.09);
+graphics.endFill();
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(8.88,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(10.04,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+// 17 0 0
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(9.07,
+                1.125,
+                0.3,
+                2.34);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(9.65,
+                1.125,
+                0.3,
+                2.34);
+graphics.endFill();
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(9.46,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+// 25 0 0
+graphics.lineStyle(2, 0x190000, 1);
+graphics.beginFill(0x190000);
+graphics.drawRect(1.075,
+                0.955,
+                1.91,
+                2.74);
+graphics.endFill();
+// 127 0 0
+graphics.lineStyle(2, 0x7F0000, 1);
+graphics.beginFill(0x7F0000);
+graphics.drawRect(0.985,
+                0.955,
+                2.09,
+                2.74);
+graphics.endFill();
+// 17 0 0
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(1.43,
+                0.895,
+                0.12,
+                0.26);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(1.83,
+                0.895,
+                0.12,
+                0.26);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(2.23,
+                0.895,
+                0.06,
+                0.26);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(2.57,
+                0.895,
+                0.06,
+                0.26);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(1.43,
+                0.895,
+                1.2,
+                0.17);
+graphics.endFill();
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(1.43,
+                0.895,
+                1.2,
+                0.17);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(1.24,
+                3.695,
+                1.58,
+                0.17);
+graphics.endFill();
+// 17 0 0
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(1.24,
+                3.695,
+                1.58,
+                0.17);
+graphics.endFill();
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(1.24,
+                3.325,
+                0.1,
+                0.54);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(2.04,
+                3.325,
+                0.1,
+                0.54);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(2.72,
+                3.325,
+                0.1,
+                0.54);
+graphics.endFill();
+// 127 0 0
+graphics.lineStyle(2, 0x7F0000, 1);
+graphics.beginFill(0x7F0000);
+graphics.drawRect(0.94,
+                0.85,
+                2.18,
+                3.06);
+graphics.endFill();
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(6.82,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(6.445,
+                1.295,
+                0.51,
+                2.0);
+graphics.endFill();
+// 255 99 0
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(6.445,
+                1.125,
+                0.51,
+                2.34);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.825,
+                1.41,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.825,
+                1.65,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.825,
+                1.89,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.825,
+                2.13,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.825,
+                2.37,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.825,
+                2.61,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.825,
+                2.85,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.825,
+                3.09,
+                0.09,
+                0.09);
+graphics.endFill();
+// 17 0 0
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(6.67,
+                1.125,
+                0.06,
+                2.34);
+graphics.endFill();
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(6.82,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(6.785,
+                1.295,
+                0.51,
+                2.0);
+graphics.endFill();
+// 255 99 0
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(6.785,
+                1.125,
+                0.51,
+                2.34);
+graphics.endFill();
+// 17 0 0
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(7.01,
+                1.125,
+                0.06,
+                2.34);
+graphics.endFill();
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(8.54,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(8.165,
+                1.295,
+                0.51,
+                2.0);
+graphics.endFill();
+// 255 99 0
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(8.165,
+                1.125,
+                0.51,
+                2.34);
+graphics.endFill();
+// 30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.545,
+                1.41,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.545,
+                1.65,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.545,
+                1.89,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.545,
+                2.13,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.545,
+                2.37,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.545,
+                2.61,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.545,
+                2.85,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.545,
+                3.09,
+                0.09,
+                0.09);
+graphics.endFill();
+// 17 0 0
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(8.39,
+                1.125,
+                0.06,
+                2.34);
+graphics.endFill();
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(8.54,
+                1.295,
+                0.1,
+                2.0);
+graphics.endFill();
+// 6 0 0
+graphics.lineStyle(2, 0xFF5A00, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(8.505,
+                1.295,
+                0.51,
+                2.0);
+graphics.endFill();
+// 255 99 0
+graphics.lineStyle(2, 0xFF6300, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(8.505,
+                1.125,
+                0.51,
+                2.34);
+graphics.endFill();
+// 17 0 0 
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(8.73,
+                1.125,
+                0.06,
+                2.34);
+graphics.endFill();
+// 26 0 0
+graphics.lineStyle(2, 0x1A0000, 1);
+graphics.beginFill(0x1A0000);
+graphics.drawRect(5.395,
+                0.925,
+                4.91,
+                2.74);
+graphics.endFill();
+//75 0 0
+graphics.lineStyle(2, 0x4B0000, 1);
+graphics.beginFill(0x4B0000);
+graphics.drawRect(5.305,
+                1.045,
+                5.09,
+                2.5);
+graphics.endFill();
+// 17 0 0
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(5.75,
+                3.465,
+                0.18,
+                0.26);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(6.21,
+                3.465,
+                0.18,
+                0.26);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(5.75,
+                3.555,
+                0.64,
+                0.17);
+graphics.endFill();
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(5.75,
+                3.555,
+                0.64,
+                0.17);
+graphics.endFill();
+//17 0 0
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(7.35,
+                3.465,
+                0.24,
+                0.26);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(7.87,
+                3.465,
+                0.24,
+                0.26);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(7.35,
+                3.555,
+                0.76,
+                0.17);
+graphics.endFill();
+//31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(7.35,
+                3.555,
+                0.76,
+                0.17);
+graphics.endFill();
+// -------------------------------------------------------------------------------------------
+//17 0 0
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(9.07,
+                3.465,
+                0.3,
+                0.26);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(9.65,
+                3.465,
+                0.3,
+                0.26);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(9.07,
+                3.555,
+                0.88,
+                0.17);
+graphics.endFill();
+
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(9.07,
+                3.555,
+                0.88,
+                0.17);
+graphics.endFill();
+
+//32 0 0
+graphics.lineStyle(2, 0x200000, 1);
+graphics.beginFill(0x200000);
+graphics.drawRect(5.56,
+                2.375,
+                1.02,
+                0.42);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x200000, 1);
+graphics.beginFill(0x200000);
+graphics.drawRect(6.02,
+                1.795,
+                4.12,
+                0.42);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x200000, 1);
+graphics.beginFill(0x200000);
+graphics.drawRect(7.16,
+                2.375,
+                1.14,
+                0.42);
+graphics.endFill();
+
+//31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(5.56,
+                0.755,
+                4.58,
+                0.17);
+graphics.endFill();
+
+// 17 0 0
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(5.56,
+                0.755,
+                4.58,
+                0.17);
+graphics.endFill();
+
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(6.82,
+                0.755,
+                0.1,
+                0.54);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(8.54,
+                0.755,
+                0.1,
+                0.54);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(9.46,
+                0.755,
+                0.1,
+                0.54);
+graphics.endFill();
+
+// 17 0 0
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(6.67,
+                0.755,
+                0.06,
+                0.37);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(7.01,
+                0.755,
+                0.06,
+                0.37);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(8.39,
+                0.755,
+                0.06,
+                0.37);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x110000, 1);
+graphics.beginFill(0x110000);
+graphics.drawRect(8.73,
+                0.755,
+                0.06,
+                0.37);
+graphics.endFill();
+
+//127 0 0
+graphics.lineStyle(2, 0x7F0000, 1);
+graphics.beginFill(0x7F0000);
+graphics.drawRect(5.26,
+                0.71,
+                5.18,
+                3.06);
+graphics.endFill();
+
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(0.16,
+                0.16,
+                3.74,
+                0.27);
+graphics.endFill();
+
+// 255 1 0
+graphics.lineStyle(2, 0xFF0100, 1);
+graphics.beginFill(0xFF0100);
+graphics.drawRect(0.16,
+                0.16,
+                3.74,
+                0.27);
+graphics.endFill();
+
+//31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(0.16,
+                0.16,
+                3.74,
+                0.27);
+graphics.endFill();
+
+//127 0 0
+graphics.lineStyle(2, 0x7F0000, 1);
+graphics.beginFill(0x7F0000);
+graphics.drawRect(0.16,
+                0.16,
+                3.74,
+                0.27);
+graphics.endFill();
+
+//6 0 0 
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(0.16,
+                4.33,
+                3.74,
+                0.27);
+graphics.endFill();
+
+//255 1 0
+graphics.lineStyle(2, 0xFF0100, 1);
+graphics.beginFill(0xFF0100);
+graphics.drawRect(0.16,
+                4.33,
+                3.74,
+                0.27);
+graphics.endFill();
+
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(0.16,
+                4.33,
+                3.74,
+                0.27);
+graphics.endFill();
+
+//127 0 0
+graphics.lineStyle(2, 0x7F0000, 1);
+graphics.beginFill(0x7F0000);
+graphics.drawRect(0.16,
+                4.33,
+                3.74,
+                0.27);
+graphics.endFill();
+
+//6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(0.16,
+                0.43,
+                0.27,
+                3.9);
+graphics.endFill();
+
+// 255 1 0
+graphics.lineStyle(2, 0xFF0100, 1);
+graphics.beginFill(0xFF0100);
+graphics.drawRect(0.16,
+                0.43,
+                0.27,
+                3.9);
+graphics.endFill();
+
+//31 0 0 
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(0.16,
+                0.43,
+                0.27,
+                3.9);
+graphics.endFill();
+
+//127 0 0
+graphics.lineStyle(2, 0x7F0000, 1);
+graphics.beginFill(0x7F0000);
+graphics.drawRect(0.16,
+                0.43,
+                0.27,
+                3.9);
+graphics.endFill();
+
+//6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(3.63,
+                0.43,
+                0.27,
+                3.9);
+graphics.endFill();
+
+//255 1 0
+graphics.lineStyle(2, 0xFF0100, 1);
+graphics.beginFill(0xFF0100);
+graphics.drawRect(3.63,
+                0.43,
+                0.27,
+                3.9);
+graphics.endFill();
+
+//31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(3.63,
+                0.43,
+                0.27,
+                3.9);
+graphics.endFill();
+
+//127 0 0
+graphics.lineStyle(2, 0x7F0000, 1);
+graphics.beginFill(0x7F0000);
+graphics.drawRect(3.63,
+                0.43,
+                0.27,
+                3.9);
+graphics.endFill();
+
+// 26 0 0
+graphics.lineStyle(2, 0x1A0000, 1);
+graphics.beginFill(0x1A0000);
+graphics.drawRect(0.14,
+                4.31,
+                3.78,
+                0.31);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x1A0000, 1);
+graphics.beginFill(0x1A0000);
+graphics.drawRect(0.14,
+                0.14,
+                3.78,
+                0.31);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x1A0000, 1);
+graphics.beginFill(0x1A0000);
+graphics.drawRect(0.14,
+                0.45,
+                0.31,
+                3.86);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x1A0000, 1);
+graphics.beginFill(0x1A0000);
+graphics.drawRect(3.61,
+                0.45,
+                0.31,
+                3.86);
+graphics.endFill();
+
+//3 0 0
+graphics.lineStyle(2, 0x030000, 1);
+graphics.beginFill(0x030000);
+graphics.drawRect(0.0,
+                0.0,
+                4.06,
+                4.76);
+graphics.endFill();
+
+//6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(4.48,
+                0.02,
+                6.74,
+                0.27);
+graphics.endFill();
+
+//255 1 0
+graphics.lineStyle(2, 0xFF0100, 1);
+graphics.beginFill(0xFF0100);
+graphics.drawRect(4.48,
+                0.02,
+                6.74,
+                0.27);
+graphics.endFill();
+
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(4.48,
+                0.02,
+                6.74,
+                0.27);
+graphics.endFill();
+
+//127 0 0
+graphics.lineStyle(2, 0x7F0000, 1);
+graphics.beginFill(0x7F0000);
+graphics.drawRect(4.48,
+                0.02,
+                6.74,
+                0.27);
+graphics.endFill();
+
+//6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(4.48,
+                4.19,
+                6.74,
+                0.27);
+graphics.endFill();
+
+//255 1 0
+graphics.lineStyle(2, 0xFF0100, 1);
+graphics.beginFill(0xFF0100);
+graphics.drawRect(4.48,
+                4.19,
+                6.74,
+                0.27);
+graphics.endFill();
+
+//31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(4.48,
+                4.19,
+                6.74,
+                0.27);
+graphics.endFill();
+
+//127 0 0
+graphics.lineStyle(2, 0x7F0000, 1);
+graphics.beginFill(0x7F0000);
+graphics.drawRect(4.48,
+                4.19,
+                6.74,
+                0.27);
+graphics.endFill();
+
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(4.48,
+                0.29,
+                0.27,
+                3.9);
+graphics.endFill();
+
+//255 1 0
+graphics.lineStyle(2, 0xFF0100, 1);
+graphics.beginFill(0xFF0100);
+graphics.drawRect(4.48,
+                0.29,
+                0.27,
+                3.9);
+graphics.endFill();
+
+//31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(4.48,
+                0.29,
+                0.27,
+                3.9);
+graphics.endFill();
+
+//127 0 0
+graphics.lineStyle(2, 0x7F0000, 1);
+graphics.beginFill(0x7F0000);
+graphics.drawRect(4.48,
+                0.29,
+                0.27,
+                3.9);
+graphics.endFill();
+
+// 6 0 0
+graphics.lineStyle(2, 0x060000, 1);
+graphics.beginFill(0x060000);
+graphics.drawRect(10.95,
+                0.29,
+                0.27,
+                3.9);
+graphics.endFill();
+
+//255 1 0
+graphics.lineStyle(2, 0xFF0100, 1);
+graphics.beginFill(0xFF0100);
+graphics.drawRect(10.95,
+                0.29,
+                0.27,
+                3.9);
+graphics.endFill();
+
+// 31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(10.95,
+                0.29,
+                0.27,
+                3.9);
+graphics.endFill();
+
+//127 0 0
+graphics.lineStyle(2, 0x7F0000, 1);
+graphics.beginFill(0x7F0000);
+graphics.drawRect(10.95,
+                0.29,
+                0.27,
+                3.9);
+graphics.endFill();
+
+//25 0 0
+graphics.lineStyle(2, 0x190000, 1);
+graphics.beginFill(0x190000);
+graphics.drawRect(4.46,
+                4.17,
+                6.78,
+                0.31);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x190000, 1);
+graphics.beginFill(0x190000);
+graphics.drawRect(4.46,
+                0.0,
+                6.78,
+                0.31);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x190000, 1);
+graphics.beginFill(0x190000);
+graphics.drawRect(4.46,
+                0.31,
+                0.31,
+                3.86);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x190000, 1);
+graphics.beginFill(0x190000);
+graphics.drawRect(10.93,
+                0.31,
+                0.31,
+                3.86);
+graphics.endFill();
+
+//31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(5.56,
+                0.02,
+                4.58,
+                0.735);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(1.24,
+                3.865,
+                1.58,
+                0.735);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(2.38,
+                0.895,
+                0.1,
+                0.43);
+graphics.endFill();
+
+//32 0 0
+graphics.lineStyle(2, 0x200000, 1);
+graphics.beginFill(0x200000);
+graphics.drawRect(2.38,
+                2.375,
+                3.18,
+                0.42);
+graphics.endFill();
+
+//31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(2.38,
+                2.375,
+                0.1,
+                0.42);
+graphics.endFill();
+
+//32 0 0
+graphics.lineStyle(2, 0x200000, 1);
+graphics.beginFill(0x200000);
+graphics.drawRect(2.38,
+                2.375,
+                0.1,
+                0.42);
+graphics.endFill();
+
+//31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(1.64,
+                2.19,
+                0.21,
+                0.09);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(1.75,
+                2.19,
+                0.1,
+                0.42);
+graphics.endFill();
+
+//32 0 0
+graphics.lineStyle(2, 0x200000, 1);
+graphics.beginFill(0x200000);
+graphics.drawRect(1.71,
+                2.19,
+                0.18,
+                0.42);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x200000, 1);
+graphics.beginFill(0x200000);
+graphics.drawRect(1.71,
+                2.29,
+                0.44,
+                0.1);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x200000, 1);
+graphics.beginFill(0x200000);
+graphics.drawRect(2.05,
+                2.29,
+                0.1,
+                0.42);
+graphics.endFill();
+
+//33 00
+graphics.lineStyle(2, 0x210000, 1);
+graphics.beginFill(0x210000);
+graphics.drawRect(2.05,
+                2.29,
+                0.1,
+                0.42);
+graphics.endFill();
+
+
+graphics.lineStyle(2, 0x210000, 1);
+graphics.beginFill(0x210000);
+graphics.drawRect(2.05,
+                2.41,
+                5.36,
+                0.1);
+graphics.endFill();
+
+//32 0 0
+graphics.lineStyle(2, 0x200000, 1);
+graphics.beginFill(0x200000);
+graphics.drawRect(6.99,
+                2.375,
+                0.42,
+                0.42);
+graphics.endFill();
+
+//33 0 0
+graphics.lineStyle(2, 0x210000, 1);
+graphics.beginFill(0x210000);
+graphics.drawRect(6.99,
+                2.41,
+                0.42,
+                0.18);
+graphics.endFill();
+//31 0 0
+graphics.lineStyle(2, 0x1F0000, 1);
+graphics.beginFill(0x1F0000);
+graphics.drawRect(1.74,
+                2.19,
+                0.01,
+                0.42);
+graphics.endFill();
+//30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                0.25,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.545,
+                0.25,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.785,
+                0.25,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.025,
+                0.25,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.265,
+                0.25,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.505,
+                0.25,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.745,
+                0.25,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.985,
+                0.25,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.225,
+                0.25,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.465,
+                0.25,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.705,
+                0.25,
+                0.09,
+                0.09);
+graphics.endFill();
+
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.945,
+                0.25,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.185,
+                0.25,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.425,
+                0.25,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                0.535,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                0.775,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                1.015,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                1.255,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                1.495,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                1.735,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                1.975,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                2.215,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                2.455,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                2.695,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                2.935,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                3.175,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                3.415,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                3.655,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                3.895,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                4.135,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.385,
+                3.735,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.625,
+                3.735,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.865,
+                3.735,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.105,
+                3.735,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.345,
+                3.735,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.585,
+                3.735,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.25,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.545,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.785,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.025,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.265,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.505,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.745,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.985,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.225,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.465,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.705,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.945,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.185,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.425,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.445,
+                0.935,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.845,
+                0.935,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.17,
+                0.935,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.41,
+                0.935,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.565,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.805,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.045,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.285,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.525,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.765,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.005,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.245,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.485,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.725,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.965,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.205,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.445,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.685,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.925,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.165,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.405,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.645,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.885,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.125,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.365,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.605,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.845,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(10.085,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(10.325,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(10.565,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(10.805,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.045,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                0.395,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                0.635,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                0.875,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                1.115,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                1.355,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                1.595,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                1.835,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                2.075,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                2.315,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                2.555,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                2.795,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                3.035,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                3.275,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                3.515,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                3.755,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                3.995,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                0.535,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                0.775,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                1.015,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                1.255,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                1.495,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                1.735,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                1.975,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                2.215,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                2.455,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                2.695,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                2.935,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                3.175,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                3.415,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect( 3.72,
+                3.655,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                3.895,
+                0.09,
+                0.09);
+graphics.endFill();
+
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                4.135,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.645,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.885,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.125,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.365,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.605,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.845,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.085,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.325,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.565,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.805,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.045,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.285,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.525,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.765,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.005,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.245,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.485,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.725,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.965,
+                0.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.04,
+                0.395,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.04,
+                0.635,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.04,
+                0.875,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.04,
+                1.115,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.04,
+                1.355,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.04,
+                1.595,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.04,
+                1.835,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.04,
+                2.075,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.04,
+                2.315,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.04,
+                2.555,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.04,
+                2.795,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.04,
+                3.035,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.04,
+                3.275,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.04,
+                3.515,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.04,
+                3.755,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.04,
+                3.995,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(3.72,
+                0.25,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.795,
+                3.595,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.255,
+                3.595,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.565,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.805,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.045,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.285,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.525,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.765,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.005,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.245,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.485,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.725,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.965,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.205,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.445,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.685,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.925,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.165,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.405,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.645,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.885,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.125,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.365,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.605,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.845,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(10.085,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(10.325,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(10.565,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(10.805,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.045,
+                4.28,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(7.425,
+                3.595,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(7.685,
+                3.595,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(7.945,
+                3.595,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(9.175,
+                3.595,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(9.465,
+                3.595,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0xFF6300);
+graphics.drawRect(9.755,
+                3.595,
+                0.09,
+                0.09);
+graphics.endFill();
+//51 0 0
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(5.56,
+                2.415,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(5.56,
+                2.655,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(6.02,
+                1.835,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(6.02,
+                2.075,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(7.16,
+                2.415,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(7.16,
+                2.655,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(6.48,
+                2.415,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(6.48,
+                2.655,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(2.38,
+                2.415,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(2.38,
+                2.655,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(1.75,
+                2.23,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(1.75,
+                2.47,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(7.68,
+                1.835,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(7.68,
+                2.075,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(8.2,
+                2.415,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(8.2,
+                2.655,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(8.88,
+                1.835,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(8.88,
+                2.075,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(10.04,
+                1.835,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(10.04,
+                2.075,
+                0.1,
+                0.1);
+graphics.endFill();
+//52 0 0
+graphics.lineStyle(2, 0x340000, 1);
+graphics.beginFill(0x340000);
+graphics.drawRect(2.05,
+                2.33,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x340000, 1);
+graphics.beginFill(0x340000);
+graphics.drawRect(2.05,
+                2.57,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x340000, 1);
+graphics.beginFill(0x340000);
+graphics.drawRect(7.03,
+                2.45,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x340000, 1);
+graphics.beginFill(0x340000);
+graphics.drawRect(7.27,
+                2.45,
+                0.1,
+                0.1);
+graphics.endFill();
+//30 0 0
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.385,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.625,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.865,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.105,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.345,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.585,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.575,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(0.815,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(1.055,
+                4.42,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.115,
+                0.935,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(2.385,
+                0.935,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(4.57,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.645,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(5.885,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.125,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.365,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.605,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(6.845,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.085,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.325,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.565,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(7.805,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.045,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.285,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.525,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(8.765,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.005,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.245,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.485,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.725,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(9.965,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(10.285,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(10.525,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(10.765,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x1E0000, 1);
+graphics.beginFill(0x1E0000);
+graphics.drawRect(11.005,
+                0.11,
+                0.09,
+                0.09);
+graphics.endFill();
+//51 0 0
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(1.715,
+                2.23,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x330000, 1);
+graphics.beginFill(0x330000);
+graphics.drawRect(1.715,
+                2.47,
+                0.1,
+                0.1);
+graphics.endFill();
+//52 0 0
+graphics.lineStyle(2, 0x340000, 1);
+graphics.beginFill(0x340000);
+graphics.drawRect(7.03,
+                2.41,
+                0.1,
+                0.1);
+graphics.endFill();
+//
+graphics.lineStyle(2, 0x340000, 1);
+graphics.beginFill(0x340000);
+graphics.drawRect(7.27,
+                2.41,
+                0.1,
+                0.1);
+graphics.endFill();  
+
+
+
+
+
+// draw polygon
+const path = [600, 370, 700, 460, 780, 420, 730, 570, 590, 520];
+
+graphics.scale.set(40); // 将图形放大两倍
+
+graphics.lineStyle(0);
+graphics.beginFill(0x3500FA, 1);
+graphics.drawPolygon(path);
+graphics.endFill();
+
+app.stage.addChild(graphics);
+
